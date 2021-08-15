@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header, nav, main, aside, section, figure, footer {
+	display: block; 
+}
+
+body {
+	width: 760px;
+	height: auto;
+	background: #fff;
+	margin: 0 auto;
+}
+
+header {
+	width: 760px;
+	height: 300px;
+	background: url(images/hierbas.jpg) no-repeat ;
+	
+}
+nav {
+	width: 760px;
+	height: 35px;
+	margin: 11px 0;
+	
+}
+
+main {
+
+	width: 760px;
+	height: auto;
+	margin-bottom: 11px;
+	
+}
+
+
+aside {
+	width: 160px;
+	height: 217px;
+	margin-right: 20px;
+	float: left;
+	
+}
+section {
+	width: 580px;
+	height: auto;
+	float: left;
+	
+}
+
+figure#banner1 {
+	width: 580px;
+	height: 216px;
+	margin-bottom: 30px;
+	float: left;
+	
+}
+
+
+figure#banner2 {
+	width: 280px;
+	height: 148px;
+	margin-left: 90px;
+	float: left;
+	
+}
+
+figure#banner3 {
+	width: 280px;
+	height: 148px;
+	margin-left: 20px;
+	float: left;
+	
+}
+
+figure#banner {
+	width: 760px;
+	height: 300px;
+	margin: 11px 0;
+
+	
+}
+
+figure#banner4 {
+	width: 500px;
+	height: 320px;
+	/*float: left;*/
+	
+}
+
+/* aquí estamos modificando el ancho */
+.ancho{
+	width: 80%;
+	height: 70px;
+	/*background: red;*/
+	margin: auto;
+}
+.logo{
+	width: 30%;
+	height: 70px;
+	/*background: blue;*/
+	float: left;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+.logo p a{
+	color: #fff;
+	font-size: 40px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: rale;}
+
+
+
+
+footer {
+	width: 760px;
+	height: 35px;
+	margin-top: 11px;
+	float: left;
+	background: url(images/campo.jpg);
+}
+
+/* Aqui voy a controlar a los contenidos */
+
+ nav ul li {
+	display: inline;
+	list-style-type: none ;
+}
+
+nav ul li a, nav ul li a:link {
+	float: left;
+	Width: 150px;
+
+
+}
+
+figcaption {
+	visibility: hidden;
+
+}
+/*
+footer {
+
+	display: none;
+}
+*/
