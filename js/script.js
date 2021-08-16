@@ -1,6 +1,6 @@
 function validar(){
 
-alert("Hello! I am an alert box!!");
+alert("holaa");
 /*
     var nombre, email, mensaje;
     nombre = document.getElementById("nombre").value;
