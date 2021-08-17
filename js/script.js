@@ -1,17 +1,17 @@
 function validar(){
 
-alert("holaa");
-/*
+    alert("hola");
+
     var nombre, email, mensaje;
-    nombre = document.getElementById("nombre").value;
-    email = document.getElementById("email").value;
-    mensaje = document.getElementById("mensaje").value;
+    nombre=document.getElementById("nombre").value;
+    email=document.getElementById("email").value;
+    mensaje=document.getElementById("mensaje").value;
     
         
     validamail = /\w+@\w+\.+[a-z]/;  // declaramos una expresion regular para validar el campo correo electrónico
 
 
-    if (nombre === "" || email === "" || Mensaje === ""){
+    if (nombre === "" || email === "" || mensaje === ""){
         alert("Todos los campos son obligatorios");
         return false;
     }
@@ -36,10 +36,9 @@ alert("holaa");
         return false;
     }
 
-    /* 
-  
+   
     var saludo = "Bienvenido " + nombre + apellido + "!!!. Gracias por su mensaje nos contactaremos con usted a la brevedad" ;
     
-    alert(saludo);*/
-*/
+    alert(saludo);
+
 }
